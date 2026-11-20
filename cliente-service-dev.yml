@@ -1,0 +1,11 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: cliente-service
+  datasource:
+    url: jdbc:mysql://localhost/bd_cliente_dev?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Lima
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver

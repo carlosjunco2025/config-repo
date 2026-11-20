@@ -1,0 +1,11 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: pedido-service
+  datasource:
+    url: jdbc:mysql://localhost/bd_pedido_dev?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Lima
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
